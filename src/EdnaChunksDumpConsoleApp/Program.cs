@@ -15,7 +15,16 @@ namespace EdnaChunksDumpConsoleApp
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             ExcelUtils excelUtils = new ExcelUtils();
             //EdnaFetchConfig config = excelUtils.ReadFromExcel(@"C:\Nagasudhir\Desktop\EdnaFetchConfig.xlsx");
-            EdnaFetchConfig config = excelUtils.ReadFromExcel("EdnaFetchConfig.xlsx");
+            string configFilePath = "EdnaFetchConfig.xlsx";
+            for (int argIter = 0; argIter < args.Length; argIter++)
+            {
+                // Console.WriteLine(args[argIter]);
+                if (args[argIter] == "--config")
+                {
+                    configFilePath = args[argIter + 1];
+                }
+            }
+            EdnaFetchConfig config = excelUtils.ReadFromExcel(configFilePath);
             DataFetcher fetcher = new DataFetcher(config);
             fetcher.FetchAndDumpData();
         }

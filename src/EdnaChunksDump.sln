@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdnaChunksDumpConsoleApp", "EdnaChunksDumpConsoleApp\EdnaChunksDumpConsoleApp.csproj", "{FDE32027-2067-4588-998F-D44A1234EBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdnaExcelConfigUtils", "EdnaExcelConfigUtils\EdnaExcelConfigUtils.csproj", "{22FF060A-9E38-4B3C-9A6B-5EF98DEC4AE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE32027-2067-4588-998F-D44A1234EBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE32027-2067-4588-998F-D44A1234EBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE32027-2067-4588-998F-D44A1234EBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE32027-2067-4588-998F-D44A1234EBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FF060A-9E38-4B3C-9A6B-5EF98DEC4AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FF060A-9E38-4B3C-9A6B-5EF98DEC4AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FF060A-9E38-4B3C-9A6B-5EF98DEC4AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FF060A-9E38-4B3C-9A6B-5EF98DEC4AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CCDAEAD-E05D-445E-A3C9-81DDB48391F1}
+	EndGlobalSection
+EndGlobal
